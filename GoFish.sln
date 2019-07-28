@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFish.Web", "GoFish.Web\GoFish.Web.csproj", "{ED68F58B-41E3-4A78-B24A-8AAF3179C0B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoFish.Web", "GoFish.Web\GoFish.Web.csproj", "{ED68F58B-41E3-4A78-B24A-8AAF3179C0B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFish.Data", "GoFish.Data\GoFish.Data.csproj", "{C313D8ED-C59F-422B-9E4B-90A9B0989751}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoFish.Data", "GoFish.Data\GoFish.Data.csproj", "{C313D8ED-C59F-422B-9E4B-90A9B0989751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoFish.Service", "GoFish.Service\GoFish.Service.csproj", "{9E9764D1-4046-4DDA-BD69-3F8A6B807A81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C313D8ED-C59F-422B-9E4B-90A9B0989751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C313D8ED-C59F-422B-9E4B-90A9B0989751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C313D8ED-C59F-422B-9E4B-90A9B0989751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9764D1-4046-4DDA-BD69-3F8A6B807A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9764D1-4046-4DDA-BD69-3F8A6B807A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9764D1-4046-4DDA-BD69-3F8A6B807A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9764D1-4046-4DDA-BD69-3F8A6B807A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
