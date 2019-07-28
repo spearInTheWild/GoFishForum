@@ -1,0 +1,11 @@
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\bin\Debug\netcoreapp2.2\GoFish.Data.deps.json
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\bin\Debug\netcoreapp2.2\GoFish.Data.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.csprojAssemblyReference.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.csproj.CoreCompileInputs.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.AssemblyInfoInputs.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.AssemblyInfo.cs
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\bin\Debug\netcoreapp2.2\GoFish.Data.runtimeconfig.json
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\bin\Debug\netcoreapp2.2\GoFish.Data.runtimeconfig.dev.json
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\bin\Debug\netcoreapp2.2\GoFish.Data.pdb
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Data\obj\Debug\netcoreapp2.2\GoFish.Data.pdb
