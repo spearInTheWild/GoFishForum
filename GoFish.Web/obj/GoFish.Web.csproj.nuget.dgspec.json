@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj": {
+    "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\GoFish.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj",
-        "projectName": "GoFish.Web",
-        "projectPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj",
+        "projectUniqueName": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\GoFish.Service.csproj",
+        "projectName": "GoFish.Service",
+        "projectPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\GoFish.Service.csproj",
         "packagesPath": "C:\\Users\\mmspe\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\obj\\",
+        "outputPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -107,6 +107,65 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj",
+        "projectName": "GoFish.Web",
+        "projectPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\GoFish.Web.csproj",
+        "packagesPath": "C:\\Users\\mmspe\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mmspe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Data\\GoFish.Data.csproj": {
+                "projectPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Data\\GoFish.Data.csproj"
+              },
+              "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\GoFish.Service.csproj": {
+                "projectPath": "D:\\Projects\\GoFish\\Source\\GoFish\\GoFish.Service\\GoFish.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -123,6 +182,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [

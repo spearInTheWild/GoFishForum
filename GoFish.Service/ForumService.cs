@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace GoFish.Service
@@ -38,7 +39,10 @@ namespace GoFish.Service
 
         public Forum GetById(int id)
         {
-            throw new NotImplementedException();
+            return _context.Forums.Where(f => f.Id == id)
+                .Include(f => f.Posts).ThenInclude(p => p.User)
+                .Include(f => f.Posts).ThenInclude(p => p.Replies).ThenInclude(f => f.User)
+                .FirstOrDefault();
         }
 
         public Task UpdateForum(Forum forum)

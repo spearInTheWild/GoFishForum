@@ -32,3 +32,6 @@ D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp2.2\GoFish.Web.p
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp2.2\GoFish.Web.csproj.CopyComplete
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\bin\Debug\netcoreapp2.2\GoFish.Data.dll
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\bin\Debug\netcoreapp2.2\GoFish.Data.pdb
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp2.2\Razor\Views\Forum\Index.g.cshtml.cs
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\bin\Debug\netcoreapp2.2\GoFish.Service.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\bin\Debug\netcoreapp2.2\GoFish.Service.pdb
