@@ -1,0 +1,11 @@
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.AssemblyInfoInputs.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.AssemblyInfo.cs
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp3.1\GoFish.Service.deps.json
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp3.1\GoFish.Service.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp3.1\GoFish.Service.pdb
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp3.1\GoFish.Data.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp3.1\GoFish.Data.pdb
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.csprojAssemblyReference.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.csproj.CopyComplete
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp3.1\GoFish.Service.pdb
