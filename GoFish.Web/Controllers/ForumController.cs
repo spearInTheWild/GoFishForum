@@ -19,7 +19,7 @@ namespace GoFish.Web.Controllers
 
         public IActionResult Index()
         {
-            var model = _forumService.GetAll()
+            var forums = _forumService.GetAll()
                 .Select(f => new ForumListingModel
                 {
                     Id = f.Id,
@@ -27,6 +27,12 @@ namespace GoFish.Web.Controllers
                     Description = f.Description
                 }
             ).OrderBy(f => f.Title);
+
+            var model = new ForumIndexModel
+            {
+                ForumList = forums
+            };
+
             return View(model);
         }
 

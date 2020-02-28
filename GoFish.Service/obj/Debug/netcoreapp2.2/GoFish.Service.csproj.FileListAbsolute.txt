@@ -4,7 +4,6 @@ D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp2.2\GoFish.S
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp2.2\GoFish.Data.dll
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\bin\Debug\netcoreapp2.2\GoFish.Data.pdb
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp2.2\GoFish.Service.csprojAssemblyReference.cache
-D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp2.2\GoFish.Service.csproj.CoreCompileInputs.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp2.2\GoFish.Service.AssemblyInfoInputs.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp2.2\GoFish.Service.AssemblyInfo.cs
 D:\Projects\GoFish\Source\GoFish\GoFish.Service\obj\Debug\netcoreapp2.2\GoFish.Service.csproj.CopyComplete
