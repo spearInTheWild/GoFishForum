@@ -1,8 +1,6 @@
-D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.AssemblyInfoInputs.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.AssemblyInfo.cs
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.csprojAssemblyReference.cache
-D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.TagHelpers.input.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.TagHelpers.output.cache
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.dll
@@ -85,3 +83,7 @@ D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.R
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.RazorTargetAssemblyInfo.cs
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.Views.pdb
 D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.csproj.CopyComplete
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\GoFish.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\GoFish\Source\GoFish\GoFish.Web\obj\Debug\netcoreapp3.1\Razor\Views\Forum\Detail.cshtml.g.cs

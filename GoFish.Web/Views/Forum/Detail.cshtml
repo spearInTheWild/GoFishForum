@@ -1,0 +1,38 @@
+﻿@model GoFish.Web.Models.Forum.ForumDetailModel
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Welcome to the @Model.Forum.Title Forum</h1>
+@if (Model.Posts.Any())
+{
+<table class="table table-hover" id="forumIndexTable">
+    <tbody>
+        @foreach (var post in Model.Posts)
+        {
+        <tr>
+            <td>
+                @post.Title
+            </td>
+            <td>
+                @post.AuthorName
+            </td>
+            <td>
+                @post.DateCreated
+            </td>
+            <td>
+                @post.RepliesCount
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+}
+else
+{
+    <div>
+        <h3>It looks like there are no @Model.Forum.Title posts yet.</h3>
+    </div>
+}
+
