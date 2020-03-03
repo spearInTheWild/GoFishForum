@@ -45,16 +45,17 @@ namespace GoFish.Web.Controllers
             var forum = _forumService.GetById(id);
             var posts = forum.Posts;
 
-            var postListing = posts.Select(p => new PostListingModel
+            var postListing = posts.Select(post => new PostListingModel
             { 
-                Id = p.Id,
-                AuthorId = p.User.Id,
-                AuthorRating = p.User.Rating,
-                Title = p.Title,
-                DateCreated = p.Created.ToString(),
-                RepliesCount = p.Replies.Count(),
-                Forum = BuildForumListing(p)
-            });
+                Id = post.Id,
+                AuthorId = post.User.Id,
+                AuthorName = post.User.UserName,
+                AuthorRating = post.User.Rating,
+                Title = post.Title,
+                DateCreated = post.Created.ToString(),
+                RepliesCount = post.Replies.Count(),
+                Forum = BuildForumListing(post)
+            }).ToList();
 
             var model = new ForumDetailModel
             {
@@ -65,9 +66,9 @@ namespace GoFish.Web.Controllers
             return View(model);
         }
 
-        private ForumListingModel BuildForumListing(Post p)
+        private ForumListingModel BuildForumListing(Post post)
         {
-            var forum = p.Forum;
+            var forum = post.Forum;
             return BuildForumListing(forum);
         }
 

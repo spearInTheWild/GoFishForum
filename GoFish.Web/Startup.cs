@@ -66,11 +66,15 @@ namespace GoFish.Web
             app.UseAuthentication();
 
             app.UseAuthorization();
+            
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
+                endpoints.MapRazorPages();
             });
+
+            
         }
     }
 }

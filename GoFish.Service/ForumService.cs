@@ -39,9 +39,9 @@ namespace GoFish.Service
 
         public Forum GetById(int id)
         {
-            return _context.Forums.Where(f => f.Id == id)
-                .Include(f => f.Posts).ThenInclude(p => p.User)
-                .Include(f => f.Posts).ThenInclude(p => p.Replies).ThenInclude(f => f.User)
+            return _context.Forums.Where(forum => forum.Id == id)
+                .Include(forum => forum.Posts).ThenInclude(post => post.User)
+                .Include(forum => forum.Posts).ThenInclude(post => post.Replies).ThenInclude(forum => forum.User)
                 .FirstOrDefault();
         }
 

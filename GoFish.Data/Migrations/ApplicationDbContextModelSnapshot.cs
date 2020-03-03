@@ -344,9 +344,9 @@ namespace GoFish.Data.Migrations
                         .WithMany("Replies")
                         .HasForeignKey("PostId");
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId");
+                    b.HasOne("GoFish.Data.Models.ApplicationUser", "User")
+                       .WithMany()
+                       .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

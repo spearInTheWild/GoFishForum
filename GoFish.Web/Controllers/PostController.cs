@@ -28,8 +28,8 @@ namespace GoFish.Web.Controllers
                 Title = post.Title,
                 AuthorId = post.User.Id,
                 AuthorName = post.User.UserName,
-                AuthorImageUrl = post.User.ProfileImage,
-                AuthorRating= post.User.Rating,
+                //AuthorImageUrl = post.User.ProfileImage,
+                //AuthorRating= post.User.Rating,
                 PostContent = post.Content,
                 Created = post.Created,
                 Replies = BuildPostReplies(post.Replies)
